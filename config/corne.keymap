@@ -29,7 +29,7 @@
             bindings = <
                 &trans     &kp RA(S)  &kp UNDER  &kp LBKT   &kp RBKT   &kp CARET  &kp EXCL   &kp LT     &kp GT     &kp KP_EQUAL &kp AMPS   &trans
                 &trans     &kp BSLH   &kp FSLH   &kp LBRC   &kp RBRC   &kp ASTR   &kp QMARK  &kp LPAR   &kp RPAR   &kp MINUS  &kp COLON  &kp AT
-                &trans     &kp HASH   &kp DLLR   &kp PIPE   &kp TILDE  &kp GRAVE  &kp KP_PLUS &kp PRCNT &kp DQT    &kp SQT    &kp SEMI   &trans
+                &trans     &kp HASH   &kp DLLR   &kp PIPE   &kp TILDE  &kp GRAVE  &kp KP_PLUS &kp PRCNT  &kp DQT    &kp SQT    &kp SEMI   &trans
                                       &kp LGUI    &trans     &kp SPACE  &kp ENTER  &mo 4      &trans
             >;
         };
@@ -37,8 +37,8 @@
         layer_3 {
             bindings = <
                 &trans     &kp F1     &kp F2     &kp F3     &kp F4     &none      &kp HOME   &kp LC(LEFT) &kp LC(RIGHT) &kp END   &none      &trans
-                &trans     &kp F5     &kp F6     &kp F7     &kp F8     &kp F9     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &none      &trans
-                &trans     &kp F10    &kp F11    &kp F12    &none      &bt BT_CLR &none      &none      &none      &none      &none      &trans
+                &trans     &kp F5     &kp F6     &kp F7     &kp F8     &kp F9     &kp LEFT   &kp DOWN     &kp UP        &kp RIGHT &none      &trans
+                &trans     &kp F10    &kp F11    &kp F12    &none      &bt BT_CLR &none      &none        &none         &none     &none      &trans
                                       &trans      &mo 4      &kp SPACE  &kp ENTER  &trans     &kp RALT
             >;
         };
